@@ -9,7 +9,7 @@ import 'injection_container.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Hive.initFlutter(); // تهيئة قاعدة بيانات Hive المحلية
+  await Hive.initFlutter();
   await initDependencies();
   runApp(const RunPulseApp());
 }

@@ -100,15 +100,7 @@ dart run flutter_launcher_icons
 flutter run
 ```
 
----
 
-## 💼 Resume Pitch
-
-> **RunPulse — Real-Time GPS Fitness & Route Tracking App (Flutter, BLoC, Clean Architecture, Maps)**
-> - Engineered an offline-capable live run tracker with OpenStreetMap and high-frequency GPS streams (`geolocator`), rendering live reactive route polylines.
-> - Implemented an event-driven `TrackingBloc` to manage real-time metric computations (distance, instant pace, and METs-based calorie burn) with millisecond timer precision.
-> - Designed local persistence using Hive to cache completed routes, coordinates, and historical benchmarks for zero-latency offline access.
-> - Built a custom athletic dark-mode HUD with responsive controls and permission-handling flows.
 
 ---
 

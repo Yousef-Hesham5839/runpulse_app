@@ -65,6 +65,9 @@ class _LiveMapWidgetState extends State<LiveMapWidget> {
               urlTemplate: AppConstants.darkMapUrlTemplate,
               subdomains: AppConstants.mapSubdomains,
               userAgentPackageName: 'com.yousef.runpulse_app',
+              errorTileCallback: (tile, error, stackTrace) {
+                debugPrint('❌ MAP TILE ERROR: $error');
+              },
             ),
 
             PolylineLayer(

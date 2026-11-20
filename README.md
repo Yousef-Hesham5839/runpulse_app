@@ -47,14 +47,6 @@
 
 ---
 
-## 📱 App Screenshots
-
-| Live Tracking & Map | Workout Summary Dialog | Workout History (Hive) |
-| :---: | :---: | :---: |
-| <img src="screenshots/01_live_tracking.png" width="240" alt="Live Tracking" /> | <img src="screenshots/02_summary_dialog.png" width="240" alt="Summary Dialog" /> | <img src="screenshots/03_history.png" width="240" alt="History" /> |
-
----
-
 ## 📐 Architecture Overview
 
 The application strictly adheres to Uncle Bob's **Clean Architecture** patterns:
